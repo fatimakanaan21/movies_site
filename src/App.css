@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+  width: 20px;
+}
+ body::-webkit-scrollbar-track{
+   background:#eeeeeeba;
+ }
+ body::-webkit-scrollbar-thumb{
+   background: #3A445C;
+   border-radius: 20px;
+   border: 1px solid #ddd;
+ }
+.App{
+  min-height: 100vh;
+  background-color: #39445a;
+  color: white;
+  padding-bottom: 150px;
+}
+.content{
+    top: 120px;
+    position: relative;
+    text-align: center;
+}
+@media (max-width:800px){
+  .content{
+    top: 60px;
+  }
+}
+/* @media (max-width:1700px){
+  .content{
+    top: 180px;
+  }
+} */
+
+/* @media (max-width:1701px){
+  .content{
+    top: 100px;
+  }
+} */
